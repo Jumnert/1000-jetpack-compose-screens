@@ -1,4 +1,23 @@
-# Screen Target/Tracking Status: 
+# 1000 Jetpack Compose Screens
+
+A public checklist project for designing and tracking **1,000 Jetpack Compose UI screens** across many real-world app domains.
+
+## Purpose
+- Practice building Compose UIs consistently
+- Explore a wide range of screen patterns (auth, e-commerce, health, tools, gaming, etc.)
+- Track completion status in one place
+
+## How to use this tracker
+1. Pick a screen ID from the list.
+2. Build the screen in your own project/workspace.
+3. Mark it as complete by changing `[ ]` to `[x]`.
+4. Keep naming aligned with the original item so progress stays easy to scan.
+
+## Progress legend
+- `[ ]` Not completed
+- `[x]` Completed
+
+## Screen Tracker (1–1000)
 | Column 1 | Column 2 | Column 3 |
 | :--- | :--- | :--- |
 | [ ] 001: Basic Login Splash | [ ] 002: User Registration Form | [ ] 003: Password Reset Flow |
