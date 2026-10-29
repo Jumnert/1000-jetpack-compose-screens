@@ -5,15 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.a1000composescreen"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.example.a1000composescreen"
-        minSdk = 27
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -40,6 +36,9 @@ android {
 }
 
 dependencies {
+    val voyagerVersion = "1.1.0-beta02"
+    implementation("cafe.adriel.voyager:voyager-transitions:${voyagerVersion}")
+    implementation("cafe.adriel.voyager:voyager-navigator:${voyagerVersion}")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
